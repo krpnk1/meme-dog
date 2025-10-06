@@ -45,3 +45,13 @@ transform: scale(2);
 .show {
 opacity: 1;
 }
+
+.fireworks {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 100;
+}
